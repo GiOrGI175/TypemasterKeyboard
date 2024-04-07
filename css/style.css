@@ -1,0 +1,111 @@
+:root {
+  --btnColor: #e8eff2;
+  --bigtxtcolor: #162542;
+  --smalltxtcolor: #7b8bad;
+  --btncolor: #f16718;
+  --whitecolor: #ffffff;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header_box {
+  width: 1110px;
+  height: 55px;
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_box .header_btn {
+  width: 175px;
+  height: 58px;
+  border-radius: 8px;
+  background-color: var(--btnColor);
+  border: none;
+  font-family: "Barlow", sans-serif;
+  color: var(--bigtxtcolor);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.section_1_box {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.gird_box_1 {
+  grid-row: 2 / 3;
+  grid-row: 1;
+}
+
+.gird_box_2 {
+  grid-column: 7 / 15;
+  grid-row: 1;
+}
+
+.gird_box_3 {
+  grid-column: 16;
+  grid-row: 1;
+}
+.text_content_1 {
+  width: 445px;
+  height: 312px;
+}
+
+.text_content_1 h1 {
+  width: 445px;
+  height: 112px;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 56px;
+  color: var(--bigtxtcolor);
+}
+
+.text_content_1 p {
+  width: 445px;
+  height: 78px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--smalltxtcolor);
+}
+
+.btn_box {
+  display: flex;
+  align-items: center;
+}
+
+.text_content_btn {
+  width: 175px;
+  height: 58px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--btncolor);
+  color: var(--whitecolor);
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.btn_box span {
+  width: 127px;
+  height: 26px;
+  margin-left: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--smalltxtcolor);
+}
+
+/* 
+დავეჯახეთ ესევთქვაპროვლემას დიზნი გაწერილია 1440პხზე ჩვენი ეკრანი უფრო დიდია ამიტომ სექციას მახ წიდზი გაუწეროთ 1440პხ და არა 100%ი და ასევე უნდა გაუწროთ ჰედერსაც 1440 პხ და ისე ავწყოთ */
