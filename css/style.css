@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Barlow", sans-serif;
+  font-family: 'Barlow', sans-serif;
 }
 
 header {
@@ -38,7 +38,7 @@ header {
   margin-left: 895px;
   background-color: var(--btnColor);
   border: none;
-  font-family: "Barlow", sans-serif;
+  font-family: 'Barlow', sans-serif;
   color: var(--bigtxtcolor);
   font-weight: bold;
   font-size: 16px;
@@ -116,7 +116,7 @@ header {
   border-radius: 8px;
   background-color: var(--btncolor);
   color: var(--whitecolor);
-  font-family: "Barlow", sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 16px;
   font-weight: bold;
   line-height: 26px;
