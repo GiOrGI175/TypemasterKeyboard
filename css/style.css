@@ -420,7 +420,7 @@ footer {
   }
 
   .section_1_box {
-    width: 375px;
+    max-width: 360px;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
@@ -467,7 +467,7 @@ footer {
   }
 
   .text_content_1 h1 {
-    width: 327px;
+    max-width: 327px;
     height: 96px;
     margin-bottom: 32px;
     font-size: 48px;
@@ -480,7 +480,7 @@ footer {
   }
 
   .section_2_box {
-    width: 375px;
+    max-width: 360px;
     flex-wrap: wrap;
     overflow: hidden;
   }
@@ -543,12 +543,12 @@ footer {
   }
 
   .section_3 {
-    width: 375px;
+    max-width: 360px;
     margin: 0 auto;
   }
 
   .section_3_box {
-    width: 375px;
+    max-width: 375px;
     height: 1200px;
     margin: 0 auto;
     margin-top: 100px;
